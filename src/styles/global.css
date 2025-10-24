@@ -1,0 +1,20 @@
+:root {
+  --primary-color: #0077b6;       /* azul confiança */
+  --secondary-color: #00b4a0;     /* verde vitalidade */
+  --accent-color: #a7e8bd;        /* verde limão suave */
+  --background-color: #e6f4f1;    /* fundo sereno */
+  --text-color: #1c2b2d;          /* texto escuro */
+  --muted-text: #5a6f73;          /* texto leve */
+  --error-color: #ff6b6b;
+  --radius: 14px;
+  --transition: all 0.3s ease;
+}
+
+/* ===== BODY ===== */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+}

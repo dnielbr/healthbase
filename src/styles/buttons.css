@@ -1,0 +1,32 @@
+.btn-primary {
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  color: #fff;
+  border: none;
+  border-radius: var(--radius);
+  padding: 0.9rem 2rem;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 180, 160, 0.25);
+}
+
+.btn-primary:hover {
+  transform: scale(1.05);
+  background: linear-gradient(135deg, #005f8f, #00a792);
+}
+
+.btn-secondary {
+  background: transparent;
+  color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+  border-radius: var(--radius);
+  padding: 0.7rem 1.6rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-secondary:hover {
+  background: var(--primary-color);
+  color: #fff;
+  transform: scale(1.05);
+}
