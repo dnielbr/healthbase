@@ -1,7 +1,7 @@
 import React from "react";
 import { Activity } from "lucide-react";
 
-const HeroHome = () => {
+const HeroSobre = () => {
   return (
     <section className="hero-banner">
       <div className="overlay"></div>
@@ -20,4 +20,4 @@ const HeroHome = () => {
   );
 };
 
-export default HeroHome;
+export default HeroSobre;

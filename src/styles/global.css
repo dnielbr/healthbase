@@ -1,20 +1,41 @@
 :root {
-  --primary-color: #0077b6;       /* azul confiança */
-  --secondary-color: #00b4a0;     /* verde vitalidade */
-  --accent-color: #a7e8bd;        /* verde limão suave */
-  --background-color: #e6f4f1;    /* fundo sereno */
-  --text-color: #1c2b2d;          /* texto escuro */
-  --muted-text: #5a6f73;          /* texto leve */
-  --error-color: #ff6b6b;
-  --radius: 14px;
+  /* === Tema Claro === */
+  --primary-color: #0084d1;
+  --secondary-color: #00c7a3;
+  --accent-color: #b7c2ff;
+  --background-color: #f4faff;
+  --text-color: #1f2d3a;
+  --muted-text: #708090;
+  --card-bg: #ffffff;
+  --border-color: rgba(0, 132, 209, 0.1);
+  --shadow-color: rgba(0, 132, 209, 0.1);
   --transition: all 0.3s ease;
 }
 
-/* ===== BODY ===== */
+/* === Aplicação Global === */
 body {
-  font-family: "Poppins", sans-serif;
   background-color: var(--background-color);
   color: var(--text-color);
+  font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+a {
+  color: var(--primary-color);
+  transition: var(--transition);
+}
+a:hover {
+  color: var(--secondary-color);
+}
+
+/* === Cards e containers === */
+.card,
+.projeto-card,
+.skills-grid span {
+  background: var(--card-bg);
+  border-color: var(--border-color);
+  box-shadow: 0 5px 15px var(--shadow-color);
+  transition: var(--transition);
 }

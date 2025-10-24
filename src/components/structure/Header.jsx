@@ -25,6 +25,9 @@ const Header = () => {
             <Nav.Link href="/imc" className="nav-item">
               IMC
             </Nav.Link>
+            <Nav.Link href="/sobre" className="nav-item">
+              SOBRE
+            </Nav.Link>
           </Nav>
         </Container>
       </Navbar>
